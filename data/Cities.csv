@@ -1,0 +1,706 @@
+City,District
+Hà Nội,Quận Ba Đình
+Hà Nội,Quận Hoàn Kiếm
+Hà Nội,Quận Tây Hồ
+Hà Nội,Quận Long Biên
+Hà Nội,Quận Cầu Giấy
+Hà Nội,Quận Đống Đa
+Hà Nội,Quận Hai Bà Trưng
+Hà Nội,Quận Hoàng Mai
+Hà Nội,Quận Thanh Xuân
+Hà Nội,Huyện Sóc Sơn
+Hà Nội,Huyện Đông Anh
+Hà Nội,Huyện Gia Lâm
+Hà Nội,Quận Nam Từ Liêm
+Hà Nội,Huyện Thanh Trì
+Hà Nội,Quận Bắc Từ Liêm
+Hà Nội,Huyện Mê Linh
+Hà Nội,Quận Hà Đông
+Hà Nội,Thị xã Sơn Tây
+Hà Nội,Huyện Ba Vì
+Hà Nội,Huyện Phúc Thọ
+Hà Nội,Huyện Đan Phượng
+Hà Nội,Huyện Hoài Đức
+Hà Nội,Huyện Quốc Oai
+Hà Nội,Huyện Thạch Thất
+Hà Nội,Huyện Chương Mỹ
+Hà Nội,Huyện Thanh Oai
+Hà Nội,Huyện Thường Tín
+Hà Nội,Huyện Phú Xuyên
+Hà Nội,Huyện Ứng Hòa
+Hà Nội,Huyện Mỹ Đức
+Hà Giang, Hà Giang
+Hà Giang,Huyện Đồng Văn
+Hà Giang,Huyện Mèo Vạc
+Hà Giang,Huyện Yên Minh
+Hà Giang,Huyện Quản Bạ
+Hà Giang,Huyện Vị Xuyên
+Hà Giang,Huyện Bắc Mê
+Hà Giang,Huyện Hoàng Su Phì
+Hà Giang,Huyện Xín Mần
+Hà Giang,Huyện Bắc Quang
+Hà Giang,Huyện Quang Bình
+Cao Bằng, Cao Bằng
+Cao Bằng,Huyện Bảo Lâm
+Cao Bằng,Huyện Bảo Lạc
+Cao Bằng,Huyện Hà Quảng
+Cao Bằng,Huyện Trùng Khánh
+Cao Bằng,Huyện Hạ Lang
+Cao Bằng,Huyện Quảng Hòa
+Cao Bằng,Huyện Hoà An
+Cao Bằng,Huyện Nguyên Bình
+Cao Bằng,Huyện Thạch An
+Bắc Kạn, Bắc Kạn
+Bắc Kạn,Huyện Pác Nặm
+Bắc Kạn,Huyện Ba Bể
+Bắc Kạn,Huyện Ngân Sơn
+Bắc Kạn,Huyện Bạch Thông
+Bắc Kạn,Huyện Chợ Đồn
+Bắc Kạn,Huyện Chợ Mới
+Bắc Kạn,Huyện Na Rì
+Tuyên Quang, Tuyên Quang
+Tuyên Quang,Huyện Lâm Bình
+Tuyên Quang,Huyện Na Hang
+Tuyên Quang,Huyện Chiêm Hóa
+Tuyên Quang,Huyện Hàm Yên
+Tuyên Quang,Huyện Yên Sơn
+Tuyên Quang,Huyện Sơn Dương
+Lào Cai, Lào Cai
+Lào Cai,Huyện Bát Xát
+Lào Cai,Huyện Mường Khương
+Lào Cai,Huyện Si Ma Cai
+Lào Cai,Huyện Bắc Hà
+Lào Cai,Huyện Bảo Thắng
+Lào Cai,Huyện Bảo Yên
+Lào Cai,Thị xã Sa Pa
+Lào Cai,Huyện Văn Bàn
+Điện Biên, Điện Biên Phủ
+Điện Biên,Thị Xã Mường Lay
+Điện Biên,Huyện Mường Nhé
+Điện Biên,Huyện Mường Chà
+Điện Biên,Huyện Tủa Chùa
+Điện Biên,Huyện Tuần Giáo
+Điện Biên,Huyện Điện Biên
+Điện Biên,Huyện Điện Biên Đông
+Điện Biên,Huyện Mường Ảng
+Điện Biên,Huyện Nậm Pồ
+Lai Châu, Lai Châu
+Lai Châu,Huyện Tam Đường
+Lai Châu,Huyện Mường Tè
+Lai Châu,Huyện Sìn Hồ
+Lai Châu,Huyện Phong Thổ
+Lai Châu,Huyện Than Uyên
+Lai Châu,Huyện Tân Uyên
+Lai Châu,Huyện Nậm Nhùn
+Sơn La, Sơn La
+Sơn La,Huyện Quỳnh Nhai
+Sơn La,Huyện Thuận Châu
+Sơn La,Huyện Mường La
+Sơn La,Huyện Bắc Yên
+Sơn La,Huyện Phù Yên
+Sơn La,Huyện Mộc Châu
+Sơn La,Huyện Yên Châu
+Sơn La,Huyện Mai Sơn
+Sơn La,Huyện Sông Mã
+Sơn La,Huyện Sốp Cộp
+Sơn La,Huyện Vân Hồ
+Yên Bái, Yên Bái
+Yên Bái,Thị xã Nghĩa Lộ
+Yên Bái,Huyện Lục Yên
+Yên Bái,Huyện Văn Yên
+Yên Bái,Huyện Mù Căng Chải
+Yên Bái,Huyện Trấn Yên
+Yên Bái,Huyện Trạm Tấu
+Yên Bái,Huyện Văn Chấn
+Yên Bái,Huyện Yên Bình
+Hoà Bình, Hòa Bình
+Hoà Bình,Huyện Đà Bắc
+Hoà Bình,Huyện Lương Sơn
+Hoà Bình,Huyện Kim Bôi
+Hoà Bình,Huyện Cao Phong
+Hoà Bình,Huyện Tân Lạc
+Hoà Bình,Huyện Mai Châu
+Hoà Bình,Huyện Lạc Sơn
+Hoà Bình,Huyện Yên Thủy
+Hoà Bình,Huyện Lạc Thủy
+Thái Nguyên, Thái Nguyên
+Thái Nguyên, Sông Công
+Thái Nguyên,Huyện Định Hóa
+Thái Nguyên,Huyện Phú Lương
+Thái Nguyên,Huyện Đồng Hỷ
+Thái Nguyên,Huyện Võ Nhai
+Thái Nguyên,Huyện Đại Từ
+Thái Nguyên,Thị xã Phổ Yên
+Thái Nguyên,Huyện Phú Bình
+Lạng Sơn, Lạng Sơn
+Lạng Sơn,Huyện Tràng Định
+Lạng Sơn,Huyện Bình Gia
+Lạng Sơn,Huyện Văn Lãng
+Lạng Sơn,Huyện Cao Lộc
+Lạng Sơn,Huyện Văn Quan
+Lạng Sơn,Huyện Bắc Sơn
+Lạng Sơn,Huyện Hữu Lũng
+Lạng Sơn,Huyện Chi Lăng
+Lạng Sơn,Huyện Lộc Bình
+Lạng Sơn,Huyện Đình Lập
+Quảng Ninh, Hạ Long
+Quảng Ninh, Móng Cái
+Quảng Ninh, Cẩm Phả
+Quảng Ninh, Uông Bí
+Quảng Ninh,Huyện Bình Liêu
+Quảng Ninh,Huyện Tiên Yên
+Quảng Ninh,Huyện Đầm Hà
+Quảng Ninh,Huyện Hải Hà
+Quảng Ninh,Huyện Ba Chẽ
+Quảng Ninh,Huyện Vân Đồn
+Quảng Ninh,Thị xã Đông Triều
+Quảng Ninh,Thị xã Quảng Yên
+Quảng Ninh,Huyện Cô Tô
+Bắc Giang, Bắc Giang
+Bắc Giang,Huyện Yên Thế
+Bắc Giang,Huyện Tân Yên
+Bắc Giang,Huyện Lạng Giang
+Bắc Giang,Huyện Lục Nam
+Bắc Giang,Huyện Lục Ngạn
+Bắc Giang,Huyện Sơn Động
+Bắc Giang,Huyện Yên Dũng
+Bắc Giang,Huyện Việt Yên
+Bắc Giang,Huyện Hiệp Hòa
+Phú Thọ, Việt Trì
+Phú Thọ,Thị xã Phú Thọ
+Phú Thọ,Huyện Đoan Hùng
+Phú Thọ,Huyện Hạ Hoà
+Phú Thọ,Huyện Thanh Ba
+Phú Thọ,Huyện Phù Ninh
+Phú Thọ,Huyện Yên Lập
+Phú Thọ,Huyện Cẩm Khê
+Phú Thọ,Huyện Tam Nông
+Phú Thọ,Huyện Lâm Thao
+Phú Thọ,Huyện Thanh Sơn
+Phú Thọ,Huyện Thanh Thuỷ
+Phú Thọ,Huyện Tân Sơn
+Vĩnh Phúc, Vĩnh Yên
+Vĩnh Phúc, Phúc Yên
+Vĩnh Phúc,Huyện Lập Thạch
+Vĩnh Phúc,Huyện Tam Dương
+Vĩnh Phúc,Huyện Tam Đảo
+Vĩnh Phúc,Huyện Bình Xuyên
+Vĩnh Phúc,Huyện Yên Lạc
+Vĩnh Phúc,Huyện Vĩnh Tường
+Vĩnh Phúc,Huyện Sông Lô
+Bắc Ninh, Bắc Ninh
+Bắc Ninh,Huyện Yên Phong
+Bắc Ninh,Huyện Quế Võ
+Bắc Ninh,Huyện Tiên Du
+Bắc Ninh,Thị xã Từ Sơn
+Bắc Ninh,Huyện Thuận Thành
+Bắc Ninh,Huyện Gia Bình
+Bắc Ninh,Huyện Lương Tài
+Hải Dương, Hải Dương
+Hải Dương, Chí Linh
+Hải Dương,Huyện Nam Sách
+Hải Dương,Thị xã Kinh Môn
+Hải Dương,Huyện Kim Thành
+Hải Dương,Huyện Thanh Hà
+Hải Dương,Huyện Cẩm Giàng
+Hải Dương,Huyện Bình Giang
+Hải Dương,Huyện Gia Lộc
+Hải Dương,Huyện Tứ Kỳ
+Hải Dương,Huyện Ninh Giang
+Hải Dương,Huyện Thanh Miện
+Hải Phòng,Quận Hồng Bàng
+Hải Phòng,Quận Ngô Quyền
+Hải Phòng,Quận Lê Chân
+Hải Phòng,Quận Hải An
+Hải Phòng,Quận Kiến An
+Hải Phòng,Quận Đồ Sơn
+Hải Phòng,Quận Dương Kinh
+Hải Phòng,Huyện Thuỷ Nguyên
+Hải Phòng,Huyện An Dương
+Hải Phòng,Huyện An Lão
+Hải Phòng,Huyện Kiến Thuỵ
+Hải Phòng,Huyện Tiên Lãng
+Hải Phòng,Huyện Vĩnh Bảo
+Hải Phòng,Huyện Cát Hải
+Hải Phòng,Huyện Bạch Long Vĩ
+Hưng Yên, Hưng Yên
+Hưng Yên,Huyện Văn Lâm
+Hưng Yên,Huyện Văn Giang
+Hưng Yên,Huyện Yên Mỹ
+Hưng Yên,Thị xã Mỹ Hào
+Hưng Yên,Huyện Ân Thi
+Hưng Yên,Huyện Khoái Châu
+Hưng Yên,Huyện Kim Động
+Hưng Yên,Huyện Tiên Lữ
+Hưng Yên,Huyện Phù Cừ
+Thái Bình, Thái Bình
+Thái Bình,Huyện Quỳnh Phụ
+Thái Bình,Huyện Hưng Hà
+Thái Bình,Huyện Đông Hưng
+Thái Bình,Huyện Thái Thụy
+Thái Bình,Huyện Tiền Hải
+Thái Bình,Huyện Kiến Xương
+Thái Bình,Huyện Vũ Thư
+Hà Nam, Phủ Lý
+Hà Nam,Thị xã Duy Tiên
+Hà Nam,Huyện Kim Bảng
+Hà Nam,Huyện Thanh Liêm
+Hà Nam,Huyện Bình Lục
+Hà Nam,Huyện Lý Nhân
+Nam Định, Nam Định
+Nam Định,Huyện Mỹ Lộc
+Nam Định,Huyện Vụ Bản
+Nam Định,Huyện Ý Yên
+Nam Định,Huyện Nghĩa Hưng
+Nam Định,Huyện Nam Trực
+Nam Định,Huyện Trực Ninh
+Nam Định,Huyện Xuân Trường
+Nam Định,Huyện Giao Thủy
+Nam Định,Huyện Hải Hậu
+Ninh Bình, Ninh Bình
+Ninh Bình, Tam Điệp
+Ninh Bình,Huyện Nho Quan
+Ninh Bình,Huyện Gia Viễn
+Ninh Bình,Huyện Hoa Lư
+Ninh Bình,Huyện Yên Khánh
+Ninh Bình,Huyện Kim Sơn
+Ninh Bình,Huyện Yên Mô
+Thanh Hóa, Thanh Hóa
+Thanh Hóa,Thị xã Bỉm Sơn
+Thanh Hóa, Sầm Sơn
+Thanh Hóa,Huyện Mường Lát
+Thanh Hóa,Huyện Quan Hóa
+Thanh Hóa,Huyện Bá Thước
+Thanh Hóa,Huyện Quan Sơn
+Thanh Hóa,Huyện Lang Chánh
+Thanh Hóa,Huyện Ngọc Lặc
+Thanh Hóa,Huyện Cẩm Thủy
+Thanh Hóa,Huyện Thạch Thành
+Thanh Hóa,Huyện Hà Trung
+Thanh Hóa,Huyện Vĩnh Lộc
+Thanh Hóa,Huyện Yên Định
+Thanh Hóa,Huyện Thọ Xuân
+Thanh Hóa,Huyện Thường Xuân
+Thanh Hóa,Huyện Triệu Sơn
+Thanh Hóa,Huyện Thiệu Hóa
+Thanh Hóa,Huyện Hoằng Hóa
+Thanh Hóa,Huyện Hậu Lộc
+Thanh Hóa,Huyện Nga Sơn
+Thanh Hóa,Huyện Như Xuân
+Thanh Hóa,Huyện Như Thanh
+Thanh Hóa,Huyện Nông Cống
+Thanh Hóa,Huyện Đông Sơn
+Thanh Hóa,Huyện Quảng Xương
+Thanh Hóa,Thị xã Nghi Sơn
+Nghệ An, Vinh
+Nghệ An,Thị xã Cửa Lò
+Nghệ An,Thị xã Thái Hoà
+Nghệ An,Huyện Quế Phong
+Nghệ An,Huyện Quỳ Châu
+Nghệ An,Huyện Kỳ Sơn
+Nghệ An,Huyện Tương Dương
+Nghệ An,Huyện Nghĩa Đàn
+Nghệ An,Huyện Quỳ Hợp
+Nghệ An,Huyện Quỳnh Lưu
+Nghệ An,Huyện Con Cuông
+Nghệ An,Huyện Tân Kỳ
+Nghệ An,Huyện Anh Sơn
+Nghệ An,Huyện Diễn Châu
+Nghệ An,Huyện Yên Thành
+Nghệ An,Huyện Đô Lương
+Nghệ An,Huyện Thanh Chương
+Nghệ An,Huyện Nghi Lộc
+Nghệ An,Huyện Nam Đàn
+Nghệ An,Huyện Hưng Nguyên
+Nghệ An,Thị xã Hoàng Mai
+Hà Tĩnh, Hà Tĩnh
+Hà Tĩnh,Thị xã Hồng Lĩnh
+Hà Tĩnh,Huyện Hương Sơn
+Hà Tĩnh,Huyện Đức Thọ
+Hà Tĩnh,Huyện Vũ Quang
+Hà Tĩnh,Huyện Nghi Xuân
+Hà Tĩnh,Huyện Can Lộc
+Hà Tĩnh,Huyện Hương Khê
+Hà Tĩnh,Huyện Thạch Hà
+Hà Tĩnh,Huyện Cẩm Xuyên
+Hà Tĩnh,Huyện Kỳ Anh
+Hà Tĩnh,Huyện Lộc Hà
+Hà Tĩnh,Thị xã Kỳ Anh
+Quảng Bình, Đồng Hới
+Quảng Bình,Huyện Minh Hóa
+Quảng Bình,Huyện Tuyên Hóa
+Quảng Bình,Huyện Quảng Trạch
+Quảng Bình,Huyện Bố Trạch
+Quảng Bình,Huyện Quảng Ninh
+Quảng Bình,Huyện Lệ Thủy
+Quảng Bình,Thị xã Ba Đồn
+Quảng Trị, Đông Hà
+Quảng Trị,Thị xã Quảng Trị
+Quảng Trị,Huyện Vĩnh Linh
+Quảng Trị,Huyện Hướng Hóa
+Quảng Trị,Huyện Gio Linh
+Quảng Trị,Huyện Đa Krông
+Quảng Trị,Huyện Cam Lộ
+Quảng Trị,Huyện Triệu Phong
+Quảng Trị,Huyện Hải Lăng
+Quảng Trị,Huyện Cồn Cỏ
+Thừa Thiên Huế, Huế
+Thừa Thiên Huế,Huyện Phong Điền
+Thừa Thiên Huế,Huyện Quảng Điền
+Thừa Thiên Huế,Huyện Phú Vang
+Thừa Thiên Huế,Thị xã Hương Thủy
+Thừa Thiên Huế,Thị xã Hương Trà
+Thừa Thiên Huế,Huyện A Lưới
+Thừa Thiên Huế,Huyện Phú Lộc
+Thừa Thiên Huế,Huyện Nam Đông
+Đà Nẵng,Quận Liên Chiểu
+Đà Nẵng,Quận Thanh Khê
+Đà Nẵng,Quận Hải Châu
+Đà Nẵng,Quận Sơn Trà
+Đà Nẵng,Quận Ngũ Hành Sơn
+Đà Nẵng,Quận Cẩm Lệ
+Đà Nẵng,Huyện Hòa Vang
+Đà Nẵng,Huyện Hoàng Sa
+Quảng Nam, Tam Kỳ
+Quảng Nam, Hội An
+Quảng Nam,Huyện Tây Giang
+Quảng Nam,Huyện Đông Giang
+Quảng Nam,Huyện Đại Lộc
+Quảng Nam,Thị xã Điện Bàn
+Quảng Nam,Huyện Duy Xuyên
+Quảng Nam,Huyện Quế Sơn
+Quảng Nam,Huyện Nam Giang
+Quảng Nam,Huyện Phước Sơn
+Quảng Nam,Huyện Hiệp Đức
+Quảng Nam,Huyện Thăng Bình
+Quảng Nam,Huyện Tiên Phước
+Quảng Nam,Huyện Bắc Trà My
+Quảng Nam,Huyện Nam Trà My
+Quảng Nam,Huyện Núi Thành
+Quảng Nam,Huyện Phú Ninh
+Quảng Nam,Huyện Nông Sơn
+Quảng Ngãi, Quảng Ngãi
+Quảng Ngãi,Huyện Bình Sơn
+Quảng Ngãi,Huyện Trà Bồng
+Quảng Ngãi,Huyện Sơn Tịnh
+Quảng Ngãi,Huyện Tư Nghĩa
+Quảng Ngãi,Huyện Sơn Hà
+Quảng Ngãi,Huyện Sơn Tây
+Quảng Ngãi,Huyện Minh Long
+Quảng Ngãi,Huyện Nghĩa Hành
+Quảng Ngãi,Huyện Mộ Đức
+Quảng Ngãi,Thị xã Đức Phổ
+Quảng Ngãi,Huyện Ba Tơ
+Quảng Ngãi,Huyện Lý Sơn
+Bình Định, Quy Nhơn
+Bình Định,Huyện An Lão
+Bình Định,Thị xã Hoài Nhơn
+Bình Định,Huyện Hoài Ân
+Bình Định,Huyện Phù Mỹ
+Bình Định,Huyện Vĩnh Thạnh
+Bình Định,Huyện Tây Sơn
+Bình Định,Huyện Phù Cát
+Bình Định,Thị xã An Nhơn
+Bình Định,Huyện Tuy Phước
+Bình Định,Huyện Vân Canh
+Phú Yên, Tuy Hoà
+Phú Yên,Thị xã Sông Cầu
+Phú Yên,Huyện Đồng Xuân
+Phú Yên,Huyện Tuy An
+Phú Yên,Huyện Sơn Hòa
+Phú Yên,Huyện Sông Hinh
+Phú Yên,Huyện Tây Hoà
+Phú Yên,Huyện Phú Hoà
+Phú Yên,Thị xã Đông Hòa
+Khánh Hòa, Nha Trang
+Khánh Hòa, Cam Ranh
+Khánh Hòa,Huyện Cam Lâm
+Khánh Hòa,Huyện Vạn Ninh
+Khánh Hòa,Thị xã Ninh Hòa
+Khánh Hòa,Huyện Khánh Vĩnh
+Khánh Hòa,Huyện Diên Khánh
+Khánh Hòa,Huyện Khánh Sơn
+Khánh Hòa,Huyện Trường Sa
+Ninh Thuận, Phan Rang-Tháp Chàm
+Ninh Thuận,Huyện Bác Ái
+Ninh Thuận,Huyện Ninh Sơn
+Ninh Thuận,Huyện Ninh Hải
+Ninh Thuận,Huyện Ninh Phước
+Ninh Thuận,Huyện Thuận Bắc
+Ninh Thuận,Huyện Thuận Nam
+Bình Thuận, Phan Thiết
+Bình Thuận,Thị xã La Gi
+Bình Thuận,Huyện Tuy Phong
+Bình Thuận,Huyện Bắc Bình
+Bình Thuận,Huyện Hàm Thuận Bắc
+Bình Thuận,Huyện Hàm Thuận Nam
+Bình Thuận,Huyện Tánh Linh
+Bình Thuận,Huyện Đức Linh
+Bình Thuận,Huyện Hàm Tân
+Bình Thuận,Huyện Phú Quí
+Kon Tum, Kon Tum
+Kon Tum,Huyện Đắk Glei
+Kon Tum,Huyện Ngọc Hồi
+Kon Tum,Huyện Đắk Tô
+Kon Tum,Huyện Kon Plông
+Kon Tum,Huyện Kon Rẫy
+Kon Tum,Huyện Đắk Hà
+Kon Tum,Huyện Sa Thầy
+Kon Tum,Huyện Tu Mơ Rông
+Kon Tum,Huyện Ia H' Drai
+Gia Lai, Pleiku
+Gia Lai,Thị xã An Khê
+Gia Lai,Thị xã Ayun Pa
+Gia Lai,Huyện KBang
+Gia Lai,Huyện Đăk Đoa
+Gia Lai,Huyện Chư Păh
+Gia Lai,Huyện Ia Grai
+Gia Lai,Huyện Mang Yang
+Gia Lai,Huyện Kông Chro
+Gia Lai,Huyện Đức Cơ
+Gia Lai,Huyện Chư Prông
+Gia Lai,Huyện Chư Sê
+Gia Lai,Huyện Đăk Pơ
+Gia Lai,Huyện Ia Pa
+Gia Lai,Huyện Krông Pa
+Gia Lai,Huyện Phú Thiện
+Gia Lai,Huyện Chư Pưh
+Đắk Lắk, Buôn Ma Thuột
+Đắk Lắk,Thị Xã Buôn Hồ
+Đắk Lắk,Huyện Ea H'leo
+Đắk Lắk,Huyện Ea Súp
+Đắk Lắk,Huyện Buôn Đôn
+Đắk Lắk,Huyện Cư M'gar
+Đắk Lắk,Huyện Krông Búk
+Đắk Lắk,Huyện Krông Năng
+Đắk Lắk,Huyện Ea Kar
+Đắk Lắk,Huyện M'Đrắk
+Đắk Lắk,Huyện Krông Bông
+Đắk Lắk,Huyện Krông Pắc
+Đắk Lắk,Huyện Krông A Na
+Đắk Lắk,Huyện Lắk
+Đắk Lắk,Huyện Cư Kuin
+Đắk Nông, Gia Nghĩa
+Đắk Nông,Huyện Đăk Glong
+Đắk Nông,Huyện Cư Jút
+Đắk Nông,Huyện Đắk Mil
+Đắk Nông,Huyện Krông Nô
+Đắk Nông,Huyện Đắk Song
+Đắk Nông,Huyện Đắk R'Lấp
+Đắk Nông,Huyện Tuy Đức
+Lâm Đồng, Đà Lạt
+Lâm Đồng, Bảo Lộc
+Lâm Đồng,Huyện Đam Rông
+Lâm Đồng,Huyện Lạc Dương
+Lâm Đồng,Huyện Lâm Hà
+Lâm Đồng,Huyện Đơn Dương
+Lâm Đồng,Huyện Đức Trọng
+Lâm Đồng,Huyện Di Linh
+Lâm Đồng,Huyện Bảo Lâm
+Lâm Đồng,Huyện Đạ Huoai
+Lâm Đồng,Huyện Đạ Tẻh
+Lâm Đồng,Huyện Cát Tiên
+Bình Phước,Thị xã Phước Long
+Bình Phước, Đồng Xoài
+Bình Phước,Thị xã Bình Long
+Bình Phước,Huyện Bù Gia Mập
+Bình Phước,Huyện Lộc Ninh
+Bình Phước,Huyện Bù Đốp
+Bình Phước,Huyện Hớn Quản
+Bình Phước,Huyện Đồng Phú
+Bình Phước,Huyện Bù Đăng
+Bình Phước,Huyện Chơn Thành
+Bình Phước,Huyện Phú Riềng
+Tây Ninh, Tây Ninh
+Tây Ninh,Huyện Tân Biên
+Tây Ninh,Huyện Tân Châu
+Tây Ninh,Huyện Dương Minh Châu
+Tây Ninh,Huyện Châu Thành
+Tây Ninh,Thị xã Hòa Thành
+Tây Ninh,Huyện Gò Dầu
+Tây Ninh,Huyện Bến Cầu
+Tây Ninh,Thị xã Trảng Bàng
+Bình Dương, Thủ Dầu Một
+Bình Dương,Huyện Bàu Bàng
+Bình Dương,Huyện Dầu Tiếng
+Bình Dương,Thị xã Bến Cát
+Bình Dương,Huyện Phú Giáo
+Bình Dương,Thị xã Tân Uyên
+Bình Dương, Dĩ An
+Bình Dương, Thuận An
+Bình Dương,Huyện Bắc Tân Uyên
+Đồng Nai, Biên Hòa
+Đồng Nai, Long Khánh
+Đồng Nai,Huyện Tân Phú
+Đồng Nai,Huyện Vĩnh Cửu
+Đồng Nai,Huyện Định Quán
+Đồng Nai,Huyện Trảng Bom
+Đồng Nai,Huyện Thống Nhất
+Đồng Nai,Huyện Cẩm Mỹ
+Đồng Nai,Huyện Long Thành
+Đồng Nai,Huyện Xuân Lộc
+Đồng Nai,Huyện Nhơn Trạch
+Bà Rịa - Vũng Tàu, Vũng Tàu
+Bà Rịa - Vũng Tàu, Bà Rịa
+Bà Rịa - Vũng Tàu,Huyện Châu Đức
+Bà Rịa - Vũng Tàu,Huyện Xuyên Mộc
+Bà Rịa - Vũng Tàu,Huyện Long Điền
+Bà Rịa - Vũng Tàu,Huyện Đất Đỏ
+Bà Rịa - Vũng Tàu,Thị xã Phú Mỹ
+Bà Rịa - Vũng Tàu,Huyện Côn Đảo
+TP HCM,Quận 1
+TP HCM,Quận 12
+TP HCM,Quận Gò Vấp
+TP HCM,Quận Bình Thạnh
+TP HCM,Quận Tân Bình
+TP HCM,Quận Tân Phú
+TP HCM,Quận Phú Nhuận
+TP HCM, Thủ Đức
+TP HCM,Quận 3
+TP HCM,Quận 10
+TP HCM,Quận 11
+TP HCM,Quận 4
+TP HCM,Quận 5
+TP HCM,Quận 6
+TP HCM,Quận 8
+TP HCM,Quận Bình Tân
+TP HCM,Quận 7
+TP HCM,Huyện Củ Chi
+TP HCM,Huyện Hóc Môn
+TP HCM,Huyện Bình Chánh
+TP HCM,Huyện Nhà Bè
+TP HCM,Huyện Cần Giờ
+Long An, Tân An
+Long An,Thị xã Kiến Tường
+Long An,Huyện Tân Hưng
+Long An,Huyện Vĩnh Hưng
+Long An,Huyện Mộc Hóa
+Long An,Huyện Tân Thạnh
+Long An,Huyện Thạnh Hóa
+Long An,Huyện Đức Huệ
+Long An,Huyện Đức Hòa
+Long An,Huyện Bến Lức
+Long An,Huyện Thủ Thừa
+Long An,Huyện Tân Trụ
+Long An,Huyện Cần Đước
+Long An,Huyện Cần Giuộc
+Long An,Huyện Châu Thành
+Tiền Giang, Mỹ Tho
+Tiền Giang,Thị xã Gò Công
+Tiền Giang,Thị xã Cai Lậy
+Tiền Giang,Huyện Tân Phước
+Tiền Giang,Huyện Cái Bè
+Tiền Giang,Huyện Cai Lậy
+Tiền Giang,Huyện Châu Thành
+Tiền Giang,Huyện Chợ Gạo
+Tiền Giang,Huyện Gò Công Tây
+Tiền Giang,Huyện Gò Công Đông
+Tiền Giang,Huyện Tân Phú Đông
+Bến Tre, Bến Tre
+Bến Tre,Huyện Châu Thành
+Bến Tre,Huyện Chợ Lách
+Bến Tre,Huyện Mỏ Cày Nam
+Bến Tre,Huyện Giồng Trôm
+Bến Tre,Huyện Bình Đại
+Bến Tre,Huyện Ba Tri
+Bến Tre,Huyện Thạnh Phú
+Bến Tre,Huyện Mỏ Cày Bắc
+Trà Vinh, Trà Vinh
+Trà Vinh,Huyện Càng Long
+Trà Vinh,Huyện Cầu Kè
+Trà Vinh,Huyện Tiểu Cần
+Trà Vinh,Huyện Châu Thành
+Trà Vinh,Huyện Cầu Ngang
+Trà Vinh,Huyện Trà Cú
+Trà Vinh,Huyện Duyên Hải
+Trà Vinh,Thị xã Duyên Hải
+Vĩnh Long, Vĩnh Long
+Vĩnh Long,Huyện Long Hồ
+Vĩnh Long,Huyện Mang Thít
+Vĩnh Long,Huyện  Vũng Liêm
+Vĩnh Long,Huyện Tam Bình
+Vĩnh Long,Thị xã Bình Minh
+Vĩnh Long,Huyện Trà Ôn
+Vĩnh Long,Huyện Bình Tân
+Đồng Tháp, Cao Lãnh
+Đồng Tháp, Sa Đéc
+Đồng Tháp, Hồng Ngự
+Đồng Tháp,Huyện Tân Hồng
+Đồng Tháp,Huyện Hồng Ngự
+Đồng Tháp,Huyện Tam Nông
+Đồng Tháp,Huyện Tháp Mười
+Đồng Tháp,Huyện Cao Lãnh
+Đồng Tháp,Huyện Thanh Bình
+Đồng Tháp,Huyện Lấp Vò
+Đồng Tháp,Huyện Lai Vung
+Đồng Tháp,Huyện Châu Thành
+An Giang, Long Xuyên
+An Giang, Châu Đốc
+An Giang,Huyện An Phú
+An Giang,Thị xã Tân Châu
+An Giang,Huyện Phú Tân
+An Giang,Huyện Châu Phú
+An Giang,Huyện Tịnh Biên
+An Giang,Huyện Tri Tôn
+An Giang,Huyện Châu Thành
+An Giang,Huyện Chợ Mới
+An Giang,Huyện Thoại Sơn
+Kiên Giang, Rạch Giá
+Kiên Giang, Hà Tiên
+Kiên Giang,Huyện Kiên Lương
+Kiên Giang,Huyện Hòn Đất
+Kiên Giang,Huyện Tân Hiệp
+Kiên Giang,Huyện Châu Thành
+Kiên Giang,Huyện Giồng Riềng
+Kiên Giang,Huyện Gò Quao
+Kiên Giang,Huyện An Biên
+Kiên Giang,Huyện An Minh
+Kiên Giang,Huyện Vĩnh Thuận
+Kiên Giang, Phú Quốc
+Kiên Giang,Huyện Kiên Hải
+Kiên Giang,Huyện U Minh Thượng
+Kiên Giang,Huyện Giang Thành
+Cần Thơ,Quận Ninh Kiều
+Cần Thơ,Quận Ô Môn
+Cần Thơ,Quận Bình Thuỷ
+Cần Thơ,Quận Cái Răng
+Cần Thơ,Quận Thốt Nốt
+Cần Thơ,Huyện Vĩnh Thạnh
+Cần Thơ,Huyện Cờ Đỏ
+Cần Thơ,Huyện Phong Điền
+Cần Thơ,Huyện Thới Lai
+Hậu Giang, Vị Thanh
+Hậu Giang, Ngã Bảy
+Hậu Giang,Huyện Châu Thành A
+Hậu Giang,Huyện Châu Thành
+Hậu Giang,Huyện Phụng Hiệp
+Hậu Giang,Huyện Vị Thuỷ
+Hậu Giang,Huyện Long Mỹ
+Hậu Giang,Thị xã Long Mỹ
+Sóc Trăng, Sóc Trăng
+Sóc Trăng,Huyện Châu Thành
+Sóc Trăng,Huyện Kế Sách
+Sóc Trăng,Huyện Mỹ Tú
+Sóc Trăng,Huyện Cù Lao Dung
+Sóc Trăng,Huyện Long Phú
+Sóc Trăng,Huyện Mỹ Xuyên
+Sóc Trăng,Thị xã Ngã Năm
+Sóc Trăng,Huyện Thạnh Trị
+Sóc Trăng,Thị xã Vĩnh Châu
+Sóc Trăng,Huyện Trần Đề
+Bạc Liêu, Bạc Liêu
+Bạc Liêu,Huyện Hồng Dân
+Bạc Liêu,Huyện Phước Long
+Bạc Liêu,Huyện Vĩnh Lợi
+Bạc Liêu,Thị xã Giá Rai
+Bạc Liêu,Huyện Đông Hải
+Bạc Liêu,Huyện Hoà Bình
+Cà Mau, Cà Mau
+Cà Mau,Huyện U Minh
+Cà Mau,Huyện Thới Bình
+Cà Mau,Huyện Trần Văn Thời
+Cà Mau,Huyện Cái Nước
+Cà Mau,Huyện Đầm Dơi
+Cà Mau,Huyện Năm Căn
+Cà Mau,Huyện Phú Tân
+Cà Mau,Huyện Ngọc Hiển
