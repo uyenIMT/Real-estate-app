@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from analytics_reports.reports import plot_average_prices
+from analytics_reports.reports import plot_minmax_prices
 from analytics_reports.reports import plot_by_category
 
 # from property_listings.property_listings import display_property_listings
@@ -26,7 +26,7 @@ if menu == 'Analytics Reports':
     st.header('Analytics Reports')
     st.sidebar.header('Select Category')
     selected_category = st.sidebar.selectbox('Choose a Category', data['Category'].unique())
-    plot_average_prices(selected_category)
+    plot_minmax_prices(selected_category)
     plot_by_category(selected_category)
 
 # Property Listings page
