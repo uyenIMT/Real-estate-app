@@ -46,6 +46,7 @@ print(df.info())
 def plot_minmax_prices(selected_category):
     # Filter the data based on the selected category
     filtered_data = df[df['Category'] == selected_category]
+    
     # Create a pivot table
     pivot_table = filtered_data.pivot_table(index=['City', 'Category'], values='Price', aggfunc=['min', 'max']).reset_index()
     print(pivot_table.head())
@@ -53,47 +54,33 @@ def plot_minmax_prices(selected_category):
     # Display the data table for the filtered data
     st.subheader('Tổng hợp Giá bất động sản cao nhất và thấp nhất ở các tỉnh thành')
     st.write(pivot_table)
-#     # Set the figure size
-#     plt.figure(figsize=(15, 20))
-#     # Create a bar chart using seaborn
-#     sns.set(style="whitegrid")
-#     sns.barplot(data=pivot_table, x='Max Price', y='City', color='lightblue', label='Max Price')
-#     sns.barplot(data=pivot_table, x='Min Price', y='City', color='lightcoral', label='Min Price')
-#     plt.xlabel('Price')
-#     plt.ylabel('City')
-#     plt.title(f'Min and Max Prices for {selected_category} Category')
-#     plt.legend()
-#     # Show the full number of price instead of scientific notation
-#     plt.ticklabel_format(style='plain', axis='x')
-#     plt.xticks(rotation=45)
-#     # Add a title
-#     plt.title('Max and Min Prices per City and Category')
-#     # Show the chart
-#     st.pyplot()
 
 def plot_by_category(selected_category):
-    selected_city = st.sidebar.selectbox('Chọn thành phố hoặc tỉnh', df['City'].unique())
+    # Get the unique city names and sort them alphabetically
+    unique_cities = sorted(df['City'].unique())
+    selected_city = st.sidebar.selectbox('Chọn thành phố hoặc tỉnh', unique_cities)
     # Filter the data for the selected city
     filtered_data = df[(df['City'] == selected_city) & (df['Category'] == selected_category)]
     # Display the data table for the filtered data
     # st.write('### Data Table')
     # st.write(filtered_data)
 
-    # Plot Number of property by District
-    st.subheader(f'Số lượng bất động sản {selected_category} ở {selected_city}')
-    plt.figure(figsize=(10, 15))
-    sns.countplot(data=filtered_data, y='District')
-    plt.xticks(rotation=25)  # Rotate x-axis labels for better readability
-    plt.xlabel('Số lượng')
-    plt.ylabel('Quận/Huyện')
-    st.pyplot()
-
-    # Plot Price per Area
-    st.subheader(f'Giá bất động sản {selected_category} theo M² ở {selected_city}')
-    # Check if filtered_data is empty
+    # Check if data is empty
     if filtered_data.empty:
+        print("filtered_data is empty")
         st.write(f"No data available for {selected_category} in {selected_city}.")
     else:
+        # Plot Number of property by District
+        st.subheader(f'Số lượng bất động sản {selected_category} ở {selected_city}')
+        plt.figure(figsize=(10, 15))
+        sns.countplot(data=filtered_data, y='District')
+        plt.xticks(rotation=25)  # Rotate x-axis labels for better readability
+        plt.xlabel('Số lượng')
+        plt.ylabel('Quận/Huyện')
+        st.pyplot()
+
+        # Plot Price per Area
+        st.subheader(f'Giá bất động sản {selected_category} theo M² ở {selected_city}')
         # Create a new column for Price per Area
         filtered_data['Price per Area'] = filtered_data['Price'] / filtered_data['Area']
         # Plot the data
@@ -106,11 +93,7 @@ def plot_by_category(selected_category):
         plt.ticklabel_format(style='plain', axis='x')
         st.pyplot()
 
-    # Plot the estate type by City
-    # Check if filtered_data is empty
-    if filtered_data.empty:
-        st.write(f"No data available for {selected_city}.")
-    else:
+        # Plot the estate type by City
         # Create a pie chart showing the proportion of estate types by city
         st.subheader(f'Loại bất động sản ở {selected_city}')
         estate_type_counts = filtered_data['Estate type'].value_counts()
@@ -121,28 +104,43 @@ def plot_by_category(selected_category):
         # Display the chart
         st.plotly_chart(fig)
 
-    # Plot the directions per city and Category
-    # Check if filtered_data is empty
-    if filtered_data.empty:
-        st.write(f"No data available for {selected_city}.")
-    else:
-        # Create a pie chart showing the proportion of estate types by city
-        st.subheader(f'Hướng bất động sản ở {selected_city}')
-        # Create a horizontal bar chart
-        plt.figure(figsize=(10, 6))
-        sns.set(style='whitegrid')
-        sns.countplot(data=filtered_data, x="Direction", palette="Spectral")
-        plt.xlabel('Hướng')
-        plt.ylabel('Số lượng')
-        # plt.title(f'Directions of property in {selected_city}')
-        plt.show()
-        # Display the chart
-        st.pyplot()
+        # Plot the certification status by City
+        # Replace empty values (including spaces) with NaN in the 'Certification Status' column
+        filtered_data['Certification status'] = filtered_data['Certification status'].replace(' ', pd.NA)
+        # Replace blank (empty) values with "Không xác định" in the 'Certification Status' column
+        filtered_data['Certification status'].fillna("Không xác định", inplace=True)
+        certification_count = len(filtered_data[filtered_data['Certification status'].notna()])
+        if certification_count == 0:
+            st.write('')
+        else:
+            # Create a pie chart showing the proportion of certification status by city
+            st.subheader(f'Tình trạng pháp lý của bất động sản ở {selected_city}')
+            certification_counts = filtered_data['Certification status'].value_counts()
+            fig = px.pie(
+            values=certification_counts.values,
+            names=certification_counts.index,
+            )
+            # Display the chart
+            st.plotly_chart(fig)
 
-    # Plot the parking slot proportion and number of them
-    if filtered_data.empty:
-        st.write(f"No data available for {selected_city}.")
-    else:
+        # Plot the directions per city and Category
+        direction_count = len(filtered_data[filtered_data['Direction'].notna()])
+        if direction_count == 0:
+            st.write('')
+        else:
+            # Create a pie chart showing the proportion of estate types by city
+            st.subheader(f'Hướng bất động sản {selected_category} ở {selected_city}')
+            # Create a horizontal bar chart
+            plt.figure(figsize=(10, 6))
+            sns.set(style='whitegrid')
+            sns.countplot(data=filtered_data, x="Direction", palette="Spectral")
+            plt.xlabel('Hướng')
+            plt.ylabel('Số lượng')
+            # plt.title(f'Directions of property in {selected_city}')
+            plt.show()
+            # Display the chart
+            st.pyplot()
+
         # Create a pie chart showing the proportion of estate types by city
         st.subheader(f'Tỷ lệ bất động sản có chỗ đậu xe ở {selected_city}')
         # Create a pie chart to show the proportion of parking slot and non-parking slot
@@ -170,10 +168,6 @@ def plot_by_category(selected_category):
             # Display the chart
             st.pyplot()
     
-    # Plot the Seller type proportion
-    if filtered_data.empty:
-        st.write(f"No data available for {selected_city}.")
-    else:
         # Create a pie chart showing the proportion of estate types by city
         st.subheader(f'Tỷ lệ người bán ở {selected_city}')
         # Create a pie chart to show the proportion of parking slot and non-parking slot
